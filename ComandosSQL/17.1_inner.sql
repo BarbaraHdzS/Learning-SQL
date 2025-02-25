@@ -49,3 +49,4 @@ SELECT users.name, languages.name
 FROM users
 JOIN users_languages ON users.user_id=users_languages.user_id
 JOIN languages ON users_languages.language_id=languages.language_id;
+

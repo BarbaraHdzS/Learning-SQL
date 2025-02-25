@@ -23,3 +23,4 @@ SELECT users.name, languages.name
 FROM users
 LEFT JOIN users_languages ON users.user_id=users_languages.user_id
 LEFT JOIN languages ON users_languages.language_id=languages.language_id;
+
