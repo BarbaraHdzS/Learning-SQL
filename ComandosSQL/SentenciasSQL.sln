@@ -27,8 +27,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Statemnets", "Statemnets", 
 		9.6_limit.sql = 9.6_limit.sql
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{1489EF20-72F0-4B65-A20E-D40E1D4695D4}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Writing", "Writing", "{5F646520-73AB-41A9-9108-C5E8A65AA4DE}"
 	ProjectSection(SolutionItems) = preProject
 		11.1_Insert.sql = 11.1_Insert.sql
@@ -45,9 +43,5 @@ EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{5F646520-73AB-41A9-9108-C5E8A65AA4DE} = {1489EF20-72F0-4B65-A20E-D40E1D4695D4}
-		{61B5A7F8-23BD-4DEB-A367-22CB804FF76D} = {1489EF20-72F0-4B65-A20E-D40E1D4695D4}
 	EndGlobalSection
 EndGlobal
