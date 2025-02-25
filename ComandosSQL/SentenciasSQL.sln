@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Statemnets", "Statemnets", "{8225392C-03F2-43B7-8FDE-4B65FF4F89B5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Reading", "01_Reading", "{8225392C-03F2-43B7-8FDE-4B65FF4F89B5}"
 	ProjectSection(SolutionItems) = preProject
 		08_select.sql = 08_select.sql
 		10.10_concat.sql = 10.10_concat.sql
@@ -27,28 +27,44 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Statemnets", "Statemnets", 
 		9.6_limit.sql = 9.6_limit.sql
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Writing", "Writing", "{5F646520-73AB-41A9-9108-C5E8A65AA4DE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Writing", "02_Writing", "{5F646520-73AB-41A9-9108-C5E8A65AA4DE}"
 	ProjectSection(SolutionItems) = preProject
 		11.1_Insert.sql = 11.1_Insert.sql
 		11.2_update.sql = 11.2_update.sql
 		11.3_delete.sql = 11.3_delete.sql
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{61B5A7F8-23BD-4DEB-A367-22CB804FF76D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_DataBase", "03_DataBase", "{61B5A7F8-23BD-4DEB-A367-22CB804FF76D}"
 	ProjectSection(SolutionItems) = preProject
 		12.1_create.sql = 12.1_create.sql
 		12.2_drop.sql = 12.2_drop.sql
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Table", "Table", "{C4A360CB-5DC6-4AF0-94AB-3ACB701EC96B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Table", "04_Table", "{C4A360CB-5DC6-4AF0-94AB-3ACB701EC96B}"
 	ProjectSection(SolutionItems) = preProject
 		13.1_create_table.sql = 13.1_create_table.sql
 		13.8_drop_table.sql = 13.8_drop_table.sql
 		13.9_alter_table.sql = 13.9_alter_table.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tablas_Relacionales", "Tablas_Relacionales", "{23509F90-CFD5-4FB8-BC46-CE5DBB2588DE}"
+	ProjectSection(SolutionItems) = preProject
+		15_creacion_tablas_relacionales.sql = 15_creacion_tablas_relacionales.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Join", "05_Join", "{5D5653B2-3234-4387-917B-9F48E508169C}"
+	ProjectSection(SolutionItems) = preProject
+		17.1_inner.sql = 17.1_inner.sql
+		17.2_left.sql = 17.2_left.sql
+		17.3_right.sql = 17.3_right.sql
+		17.4_union.sql = 17.4_union.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23509F90-CFD5-4FB8-BC46-CE5DBB2588DE} = {C4A360CB-5DC6-4AF0-94AB-3ACB701EC96B}
 	EndGlobalSection
 EndGlobal

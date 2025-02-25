@@ -39,4 +39,3 @@ Lección 13.13: https://youtu.be/OuJerKzV5T0?t=12712
 ALTER TABLE persons8
 DROP COLUMN description;
 
-S
