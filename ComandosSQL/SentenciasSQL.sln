@@ -40,6 +40,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{61
 		12.2_drop.sql = 12.2_drop.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Table", "Table", "{C4A360CB-5DC6-4AF0-94AB-3ACB701EC96B}"
+	ProjectSection(SolutionItems) = preProject
+		13.1_create_table.sql = 13.1_create_table.sql
+		13.8_drop_table.sql = 13.8_drop_table.sql
+		13.9_alter_table.sql = 13.9_alter_table.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
