@@ -10,16 +10,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Statemnets", "Statemnets", 
 		10.11_group_by.sql = 10.11_group_by.sql
 		10.12_having.sql = 10.12_having.sql
 		10.13_case.sql = 10.13_case.sql
-		10.2_null.sql = 10.2_null.sql
 		10.1_comments.sql = 10.1_comments.sql
+		10.2_null.sql = 10.2_null.sql
 		10.3_min_max.sql = 10.3_min_max.sql
+		10.4_count.sql = 10.4_count.sql
 		10.5_sum.sql = 10.5_sum.sql
 		10.6_avg.sql = 10.6_avg.sql
 		10.7_in.sql = 10.7_in.sql
 		10.8_between.sql = 10.8_between.sql
 		10.9_alias.sql = 10.9_alias.sql
 		9.1_distintc.sql = 9.1_distintc.sql
-		10.4_count.sql = 10.4_count.sql
 		9.2_where.sql = 9.2_where.sql
 		9.3_order_by.sql = 9.3_order_by.sql
 		9.4_like.sql = 9.4_like.sql
@@ -27,8 +27,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Statemnets", "Statemnets", 
 		9.6_limit.sql = 9.6_limit.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{1489EF20-72F0-4B65-A20E-D40E1D4695D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Writing", "Writing", "{5F646520-73AB-41A9-9108-C5E8A65AA4DE}"
+	ProjectSection(SolutionItems) = preProject
+		11.1_Insert.sql = 11.1_Insert.sql
+		11.2_update.sql = 11.2_update.sql
+		11.3_delete.sql = 11.3_delete.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{61B5A7F8-23BD-4DEB-A367-22CB804FF76D}"
+	ProjectSection(SolutionItems) = preProject
+		12.1_create.sql = 12.1_create.sql
+		12.2_drop.sql = 12.2_drop.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F646520-73AB-41A9-9108-C5E8A65AA4DE} = {1489EF20-72F0-4B65-A20E-D40E1D4695D4}
+		{61B5A7F8-23BD-4DEB-A367-22CB804FF76D} = {1489EF20-72F0-4B65-A20E-D40E1D4695D4}
 	EndGlobalSection
 EndGlobal
