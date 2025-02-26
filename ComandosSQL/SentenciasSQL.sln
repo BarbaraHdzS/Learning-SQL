@@ -60,6 +60,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Join", "05_Join", "{5D56
 		17.4_union.sql = 17.4_union.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Advanced", "06_Advanced", "{6089FFF3-224F-4ED9-9DDE-8BF348AD50C2}"
+	ProjectSection(SolutionItems) = preProject
+		18.1_index.sql = 18.1_index.sql
+		18.2_trigger.sql = 18.2_trigger.sql
+		18.3_view.sql = 18.3_view.sql
+		18.4_stored_procedure.sql = 18.4_stored_procedure.sql
+		18.5_transactions.sql = 18.5_transactions.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07_conections", "07_conections", "{42A4B07B-4A08-40F5-96AA-651DFD314063}"
+	ProjectSection(SolutionItems) = preProject
+		19_connectors.sql = 19_connectors.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
